@@ -1,6 +1,5 @@
 <script setup lang="ts">
 	import { RouterLink, RouterView } from 'vue-router'
-	import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -8,11 +7,8 @@
 		<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 		<el-button type="primary"> 测试 </el-button>
 		<div class="wrapper">
-			<HelloWorld msg="You did it!" />
-
 			<nav>
 				<RouterLink to="/">Home</RouterLink>
-				<RouterLink to="/about">About</RouterLink>
 			</nav>
 		</div>
 	</header>
@@ -20,7 +16,7 @@
 	<RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="less">
 	header {
 		line-height: 1.5;
 		max-height: 100vh;

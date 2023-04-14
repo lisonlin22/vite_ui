@@ -17,6 +17,13 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     })
   ],
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
