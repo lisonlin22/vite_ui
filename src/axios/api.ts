@@ -6,3 +6,6 @@
 @Contact :   lisonlin22@qq.com
 @Desc    :   返回 api 接口地址
 */
+export default {
+    login: '/login'
+} 

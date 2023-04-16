@@ -16,6 +16,7 @@
 <script setup lang="ts">
 	import { ref } from 'vue'
 	import STable from '../components/table/table.vue'
+
 	// 工单列表
 	const Option = {
 		index: true, // 是否显示 index
